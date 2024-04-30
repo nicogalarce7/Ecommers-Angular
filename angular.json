@@ -89,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/boostrap/dist/css/boostrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -96,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

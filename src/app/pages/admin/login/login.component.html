@@ -1,0 +1,78 @@
+<section class="container">
+  <div class="forms">
+    <!-- sign in -->
+    <div class="content active">
+      <h2 class="title">sign in</h2>
+
+      <fieldset class="field">
+        <legend>or</legend>
+        <form class="login-form">
+        <div class="login-input">
+          <label for="loginemail"><i class="fa-solid fa-envelope icon"></i></label>
+          <input type="email" name= "userName" [(ngModel)] = "loginObj.userName" id="loginEmail" placeholder="email" />
+        </div>
+        <div class="login-input">
+          <label for="loginpassword"><i class="fa-solid fa-lock icon"></i></label>
+          <input type="password" name= "password" [(ngModel)]="loginObj.password" id="loginPassword" placeholder="password" />
+          <i class="fa-solid fa-eye"></i>
+        </div>
+      </form>
+      </fieldset>
+
+      <div class="adjust">
+
+        <a href="#">forgot password</a>
+      </div>
+
+      <button type="submit" class="signin" (click)="onLogin()">sign in</button>
+
+      <p class="text">not have account?</p>
+
+    </div>
+
+    <!-- sign up -->
+    <div class="content">
+      <h2 class="title">sign up</h2>
+
+      <fieldset class="field">
+        <legend>register</legend>
+        <div class="login-input">
+          <label for="firstusername"><i class="fa-solid fa-user icon"></i></label>
+          <input type="text" id="firstUsername" placeholder="first name" />
+        </div>
+        <div class="login-input">
+          <label for="lastusername"><i class="fa-solid fa-user icon"></i></label>
+          <input type="text" id="lastUsername" placeholder="last name" />
+        </div>
+        <div class="login-input">
+          <label for="loginemail"><i class="fa-solid fa-envelope icon"></i></label>
+          <input type="email" id="signUpEmail" placeholder="email" />
+        </div>
+        <div class="login-input">
+          <label for="phone"><i class="fa-solid fa-phone icon"></i></label>
+          <input type="tel" id="phoneNumber" placeholder="123-456-789" />
+        </div>
+        <div class="login-input">
+          <label for="userpassword"><i class="fa-solid fa-lock icon"></i></label>
+          <input type="password" id="userPassword" placeholder="password" />
+          <i class="fa-solid fa-eye"></i>
+        </div>
+        <div class="login-input">
+          <label for="fixpassword"><i class="fa-solid fa-lock icon"></i></label>
+          <input type="password" id="fixPassword" placeholder="confirm password" />
+          <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <label for="agree">
+          <input type="checkbox" id="agree" /> I have read and agree to the
+          <a href="#" class="span">Terms and Conditions</a>
+        </label>
+
+        <button type="submit" class="signin">register</button>
+      </fieldset>
+
+      <p class="text">have account?</p>
+      <button class="toggle-button">login</button>
+    </div>
+  </div>
+</section>

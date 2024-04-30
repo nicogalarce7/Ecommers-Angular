@@ -1,0 +1,42 @@
+<div class="products-container">
+  <div class="products">
+    <div [ngClass]="isSidePanelVisible ? 'card-container-productList' : 'card-container-productList2'"
+      class="card-container-productList2">
+      <div class="card-products">
+        <div class="title-product">
+          Product List
+        </div>
+        <div class="btn-add">
+          <button class="btn-newProduct">New
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="newProducts-container" *ngIf="isSidePanelVisible">
+      <div class="card-container">
+        <div class="title-container">
+          New Product
+        </div>
+        <div class="btn-add">
+          <button class="btn-newProduct">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="card-product">
+      <div class="container">
+        <div class="wrapper">
+          <div class="banner-image"> </div>
+          <h1> Toyota Supra</h1>
+          <p>Lorem ipsum dolor sit amet, <br/>
+            consectetur adipiscing elit.</p>
+         </div>
+         <div class="button-wrapper">
+         <button class="btn outline">DETAILS</button>
+           <button class="btn fill">BUY NOW</button>
+           </div>
+       </div>
+    </div>
+  </div>
+</div>
