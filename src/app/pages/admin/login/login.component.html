@@ -1,78 +1,45 @@
-<section class="container">
-  <div class="forms">
-    <!-- sign in -->
-    <div class="content active">
-      <h2 class="title">sign in</h2>
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
 
-      <fieldset class="field">
-        <legend>or</legend>
-        <form class="login-form">
-        <div class="login-input">
-          <label for="loginemail"><i class="fa-solid fa-envelope icon"></i></label>
-          <input type="email" name= "userName" [(ngModel)] = "loginObj.userName" id="loginEmail" placeholder="email" />
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+
+              <div data-mdb-input-init class="form-outline form-white mb-4">
+                <input type="email" id="typeEmailX" class="form-control form-control-lg" name="userName" [(ngModel)]="loginObj.userName" />
+                <label class="form-label" for="typeEmailX">Email</label>
+              </div>
+
+              <div data-mdb-input-init class="form-outline form-white mb-4">
+                <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password" [(ngModel)]="loginObj.password"/>
+                <label class="form-label" for="typePasswordX">Password</label>
+              </div>
+
+              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+
+              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-lg px-5" type="button" (click)="onLogin()">Login</button>
+
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+              </div>
+
+            </div>
+
+            <div>
+              <p class="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+              </p>
+            </div>
+
+          </div>
         </div>
-        <div class="login-input">
-          <label for="loginpassword"><i class="fa-solid fa-lock icon"></i></label>
-          <input type="password" name= "password" [(ngModel)]="loginObj.password" id="loginPassword" placeholder="password" />
-          <i class="fa-solid fa-eye"></i>
-        </div>
-      </form>
-      </fieldset>
-
-      <div class="adjust">
-
-        <a href="#">forgot password</a>
       </div>
-
-      <button type="submit" class="signin" (click)="onLogin()">sign in</button>
-
-      <p class="text">not have account?</p>
-
-    </div>
-
-    <!-- sign up -->
-    <div class="content">
-      <h2 class="title">sign up</h2>
-
-      <fieldset class="field">
-        <legend>register</legend>
-        <div class="login-input">
-          <label for="firstusername"><i class="fa-solid fa-user icon"></i></label>
-          <input type="text" id="firstUsername" placeholder="first name" />
-        </div>
-        <div class="login-input">
-          <label for="lastusername"><i class="fa-solid fa-user icon"></i></label>
-          <input type="text" id="lastUsername" placeholder="last name" />
-        </div>
-        <div class="login-input">
-          <label for="loginemail"><i class="fa-solid fa-envelope icon"></i></label>
-          <input type="email" id="signUpEmail" placeholder="email" />
-        </div>
-        <div class="login-input">
-          <label for="phone"><i class="fa-solid fa-phone icon"></i></label>
-          <input type="tel" id="phoneNumber" placeholder="123-456-789" />
-        </div>
-        <div class="login-input">
-          <label for="userpassword"><i class="fa-solid fa-lock icon"></i></label>
-          <input type="password" id="userPassword" placeholder="password" />
-          <i class="fa-solid fa-eye"></i>
-        </div>
-        <div class="login-input">
-          <label for="fixpassword"><i class="fa-solid fa-lock icon"></i></label>
-          <input type="password" id="fixPassword" placeholder="confirm password" />
-          <i class="fa-solid fa-eye"></i>
-        </div>
-
-        <label for="agree">
-          <input type="checkbox" id="agree" /> I have read and agree to the
-          <a href="#" class="span">Terms and Conditions</a>
-        </label>
-
-        <button type="submit" class="signin">register</button>
-      </fieldset>
-
-      <p class="text">have account?</p>
-      <button class="toggle-button">login</button>
     </div>
   </div>
 </section>
