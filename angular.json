@@ -67,7 +67,7 @@
           "configurations": {
             "production": {
               "buildTarget": "angular-app:build:production",
-              "proxyConfig": "proxi.conf.json"
+              "proxyConfig": "./proxy.conf.js"
             },
             "development": {
               "buildTarget": "angular-app:build:development"

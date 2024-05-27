@@ -1,0 +1,75 @@
+[
+  {
+    "productId": 1,
+    "productSku": "IPHONE8",
+    "productName": "Iphone 8 264 GB",
+    "productPrice": 125000,
+    "productShortName": "IP8",
+    "productDescription": "This is a ihone product",
+    "createdDate": "2024-05-23T22:47:53.73",
+    "deliveryTimeSpan": "8 days",
+    "categoryId": 1,
+    "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+    "categoryName": "Mobile"
+  },
+{
+  "productId": 2,
+  "productSku": "IPHONE8",
+  "productName": "Iphone 8 264 GB",
+  "productPrice": 125000,
+  "productShortName": "IP8",
+  "productDescription": "This is a ihone product",
+  "createdDate": "2024-05-23T22:47:53.73",
+  "deliveryTimeSpan": "8 days",
+  "categoryId": 1,
+  "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+  "categoryName": "Mobile"
+},{
+  "productId": 3,
+  "productSku": "IPHONE8",
+  "productName": "Iphone 8 264 GB",
+  "productPrice": 125000,
+  "productShortName": "IP8",
+  "productDescription": "This is a ihone product",
+  "createdDate": "2024-05-23T22:47:53.73",
+  "deliveryTimeSpan": "8 days",
+  "categoryId": 1,
+  "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+  "categoryName": "Mobile"
+},{
+  "productId": 4,
+  "productSku": "IPHONE8",
+  "productName": "Iphone 8 264 GB",
+  "productPrice": 125000,
+  "productShortName": "IP8",
+  "productDescription": "This is a ihone product",
+  "createdDate": "2024-05-23T22:47:53.73",
+  "deliveryTimeSpan": "8 days",
+  "categoryId": 1,
+  "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+  "categoryName": "Mobile"
+},{
+  "productId": 5,
+  "productSku": "IPHONE8",
+  "productName": "Iphone 8 264 GB",
+  "productPrice": 125000,
+  "productShortName": "IP8",
+  "productDescription": "This is a ihone product",
+  "createdDate": "2024-05-23T22:47:53.73",
+  "deliveryTimeSpan": "8 days",
+  "categoryId": 1,
+  "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+  "categoryName": "Mobile"
+},{
+  "productId": 6,
+  "productSku": "IPHONE8",
+  "productName": "Iphone 8 264 GB",
+  "productPrice": 125000,
+  "productShortName": "IP8",
+  "productDescription": "This is a ihone product",
+  "createdDate": "2024-05-23T22:47:53.73",
+  "deliveryTimeSpan": "8 days",
+  "categoryId": 1,
+  "productImageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gsmarena.com%2Fapple_iphone_13-pictures-11103.php&psig=AOvVaw18O-_IIwoy4JUGr9rKh2bg&ust=1716570957890000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDaqqSjpIYDFQAAAAAdAAAAABAE",
+  "categoryName": "Mobile"
+}]

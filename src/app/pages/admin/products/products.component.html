@@ -13,33 +13,14 @@
       </div>
       <div class="card-body">
         <div class="row">
-          <div class="col-3">
+          <div class="col-3" *ngFor="let product of productsList">
             <div class="card">
-              <img src="img_avatar1.png" alt="Card Image" class="card-img-top">
+              <svg><image class="card-img-top"  [attr.xlink:href]="product.productImageUrl" alt="Card Image" /></svg>
               <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See Profile</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-              <img src="img_avatar1.png" alt="Card Image" class="card-img-top">
-              <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See Profile</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card">
-              <img src="img_avatar1.png" alt="Card Image" class="card-img-top">
-              <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">See Profile</a>
+                <h4 class="card-title">{{product.productName}}</h4>
+                <p class="card-text">{{product.categoryName}}</p>
+                <a class="btn btn-primary" (click)="onUpdate">Edit</a>
+                <a class="btn btn-danger mx-2" (click)="onDelete(product)">Delete</a>
               </div>
             </div>
           </div>
@@ -100,6 +81,14 @@
             <div class="col-12">
               <label for="">Product Description</label>
               <textarea rows="4" [(ngModel)]="productdObj.productDescription" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <button class="btn btn-success">Reset</button>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-success" (click)="onSave(productdObj)">Create Product</button>
             </div>
           </div>
 
